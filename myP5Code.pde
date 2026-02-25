@@ -9,7 +9,20 @@ draw = function() {
 
     fill(0, 0, 0);
     textSize(20);
+    
+
+if (mousePressed){
+    fill(0,0,0);
+    text("rubber band", 39, 200);
+}
+
+else {
+    fill(0,0,0);
     text("What kind of band never plays music?", 39, 200);
+}
+
+
+
 };
 
 /*
